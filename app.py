@@ -53,4 +53,12 @@ code = '''st.markdown(":green[$\sqrt{x^2+y^2}=1$] is a Pythagorean identity. :pe
 st.code(code, language='python')
 
 st.divider()
+
+st.subheader('7. Text with LaTex')
+st.latex(r'''
+    a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
+    \sum_{k=0}^{n-1} ar^k =
+    a \left(\frac{1-r^{n}}{1-r}\right)
+    ''')
+
 st.divider()
