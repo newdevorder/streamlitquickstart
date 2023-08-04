@@ -2,5 +2,4 @@ python-dotenv
 streamlit
 av
 cv2
-webrtc_streamer
-RTCConfiguration
+streamlit-webrtc
