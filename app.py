@@ -14,6 +14,9 @@ st.title('Welcome To Streamlit Quickstart!')
 
 image = Image.open('streamlit_logo.png')
 st.image(image, caption='streamlit logo')
+code = '''image = Image.open('streamlit_logo.png')
+st.image(image, caption='streamlit logo')'''
+st.code(code, language='python')
 
 st.divider()
 
