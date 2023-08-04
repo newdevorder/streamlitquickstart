@@ -86,5 +86,13 @@ picture = st.camera_input("Take a picture")
 if picture:
     st.image(picture)
 
+st.divider()
 
+prompt = st.chat_input("Say something")
+if prompt:
+    st.write(f"User has sent the following prompt: {prompt}")
 
+code = '''prompt = st.chat_input("Say something")
+if prompt:
+    st.write(f"User has sent the following prompt: {prompt}")'''
+st.code(code, language='python')
