@@ -70,3 +70,13 @@ code = '''age = st.slider('How old are you?', 0, 130, 25)
 st.write("I'm ", age, 'years old')'''
 st.code(code, language='python')
 
+st.divider()
+title = st.text_input('Movie title', 'Life of Brian')
+st.write('The current movie title is', title)
+code = '''title = st.text_input('Movie title', 'Life of Brian')
+st.write('The current movie title is', title)'''
+st.code(code, language='python')
+
+
+
+
