@@ -62,3 +62,11 @@ st.latex(r'''
     ''')
 
 st.divider()
+
+st.subheader('8. Slider')
+age = st.slider('How old are you?', 0, 130, 25)
+st.write("I'm ", age, 'years old')
+code = '''age = st.slider('How old are you?', 0, 130, 25)
+st.write("I'm ", age, 'years old')'''
+ct.code(code, language='python')
+
