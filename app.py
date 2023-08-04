@@ -79,6 +79,12 @@ code = '''title = st.text_input('Movie title', 'Life of Brian')
 st.write('The current movie title is', title)'''
 st.code(code, language='python')
 
+st.divider()
+
+st.subheader('10. Camera Input')
+picture = st.camera_input("Take a picture")
+if picture:
+    st.image(picture)
 
 
 
