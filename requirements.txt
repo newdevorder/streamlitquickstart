@@ -1,5 +1,2 @@
 python-dotenv
 streamlit
-av
-cv2
-streamlit-webrtc
