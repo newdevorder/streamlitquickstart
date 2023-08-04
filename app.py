@@ -87,7 +87,7 @@ st.subheader('10. Camera Input')
 picture = st.camera_input("Take a picture")
 if picture:
     st.image(picture)
-code = '''picture = st.camera_input("Take a picture")'''
+code = '''picture = st.camera_input("Take a picture")
 if picture:
     st.image(picture)'''
 st.code(code, language='python')
