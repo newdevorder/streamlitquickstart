@@ -12,7 +12,7 @@ from PIL import Image
 
 st.title('Welcome To Streamlit Quickstart!')
 
-image = Image.open('streamlit_logo')
+image = Image.open('streamlit_logo.png')
 st.image(image, caption='streamlit logo')
 
 st.divider()
