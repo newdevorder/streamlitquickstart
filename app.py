@@ -16,5 +16,5 @@ st.code(code, language='python')
 
 
 st.write('Hello, *World!* :sunglasses:')
-code = '''Hello, *World!* :sunglasses:'''
+code = '''st.write('Hello, *World!* :sunglasses:')'''
 st.code(code, language='python')
