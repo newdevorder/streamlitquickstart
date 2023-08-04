@@ -71,6 +71,8 @@ st.write("I'm ", age, 'years old')'''
 st.code(code, language='python')
 
 st.divider()
+
+st.subheader('9. Text Input')
 title = st.text_input('Movie title', 'Life of Brian')
 st.write('The current movie title is', title)
 code = '''title = st.text_input('Movie title', 'Life of Brian')
